@@ -13,7 +13,7 @@ terraform {
 
 resource "aws_ssm_parameter" "foo" {
   provider           = aws.uswest2
-  name  = "foospace"
+  name  = "spacelift-parent"
   type  = "String"
   value = "test5"
 }
