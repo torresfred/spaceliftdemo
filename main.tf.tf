@@ -15,7 +15,7 @@ resource "aws_ssm_parameter" "foo" {
   provider           = aws.uswest2
   name  = "foospace"
   type  = "String"
-  value = "test4"
+  value = "test5"
 }
 
 output "ssm" {                                                                     
